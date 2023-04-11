@@ -26,7 +26,7 @@ class ZohoRequest extends FormRequest
         return [
             'account.Account_Name' => 'required|string|max:255',
             'account.Website' => 'required|active_url',
-            'account.Phone' => ['required', new Phone,],
+            'account.Phone' => ['required', new Phone, 'max:255',],
             'deal.Deal_Name' => 'required|string|max:255',
             'deal.Stage' => ['required', new ZohoStage,],
         ];
