@@ -1,3 +1,5 @@
+# Task
+
 Title: Creating a Web Form for Zoho CRM Deals and Accounts using Vue.js
 and Laravel
 
@@ -15,8 +17,7 @@ It will include the following features:
 
 -   Linking of the deal and account records in Zoho CRM
 
--   Automatic token refresh mechanism for uninterrupted creation of
-    > records
+-   Automatic token refresh mechanism for uninterrupted creation of records
 
 Requirements: The form should include the following fields for the deal
 record:
@@ -51,8 +52,7 @@ follows:
 
 The form should also include the following functionality:
 
--   Validation of all form fields to ensure that valid values are
-    > entered
+-   Validation of all form fields to ensure that valid values are entered
 
 -   Display of error messages if an invalid value is entered
 
@@ -71,8 +71,7 @@ following:
 
 -   Implementation of the automatic token refresh mechanism
 
--   Creation of the necessary routes and controllers to handle form
-    > submissions
+-   Creation of the necessary routes and controllers to handle form submissions
 
 Deliverables: The final deliverable will be a fully functional web form
 that allows users to create deals and accounts in Zoho CRM using Vue.js
